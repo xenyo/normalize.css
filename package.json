@@ -2,6 +2,7 @@
   "name": "@xenyo/normalize.css",
   "version": "1.1.0",
   "main": "dist/normalize.css",
+  "style": "dist/normalize.css",
   "scripts": {
     "watch": "parcel watch src/normalize.scss",
     "build": "parcel build src/normalize.scss"
