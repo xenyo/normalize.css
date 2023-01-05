@@ -1,6 +1,6 @@
 {
-  "name": "@xenyo/normalize.css",
-  "version": "1.2.0",
+  "name": "@xenyo/normalize",
+  "version": "1.0.0",
   "main": "dist/normalize.css",
   "style": "dist/normalize.css",
   "scripts": {
