@@ -1,0 +1,41 @@
+// Universal styles.
+*, *::before, *::after {
+  // Use a more intuitive box-sizing model.
+  box-sizing: border-box;
+
+  // Remove default margin.
+  margin: 0;
+
+  // Smart line height.
+  line-height: calc(1em + 8px);
+
+  // Avoid text overflows.
+  overflow-wrap: break-word;
+}
+
+// Body styles.
+body {
+  // Set default font.
+  font-family: sans-serif;
+}
+
+// Media element styles.
+img, picture, video, canvas, svg {
+  // Normalize display
+  display: block;
+
+  // Make responsive.
+  max-width: 100%;
+  height: auto;
+}
+
+// Form element styles.
+input, button, textarea, select {
+  // Normalize display.
+  display: block;
+
+  // Add typography inheritance.
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
