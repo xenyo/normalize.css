@@ -1,14 +1,13 @@
 {
   "name": "@xenyo/normalize.css",
   "version": "1.0.0",
+  "main": "dist/normalize.css",
   "scripts": {
     "watch": "parcel watch src/normalize.scss",
     "build": "parcel build src/normalize.scss"
   },
-  "dependencies": {
-    "parcel": "^2.8.2"
-  },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2"
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
   }
 }
